@@ -217,7 +217,8 @@ body {
 }
 
 a.main-button-slider {
-  font-size: 13px;
+  font-size: 22px;
+  font-weight: 800;
   border-radius: 20px;
   padding: 12px 20px;
   background-color: #f55858;
@@ -721,7 +722,7 @@ welcome
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url(../images/banner-bg.png);
+  background-image: url(../images/welcome_bg.png);
   background-repeat: no-repeat;
 /*
 TRY IT ... with or without CENTER CENTER
@@ -755,13 +756,17 @@ TRY IT ... with or without CENTER CENTER
 }
 
 .welcome-area .header-text p {
-  font-weight: 300;
-  font-size: 17px;
   color: #fff;
   line-height: 30px;
-  letter-spacing: 0.25px;
+  letter-spacing: -1.75px;
   margin-bottom: 40px;
   position: relative;
+}
+
+.welcome-area .welcome_img{
+  transform: scale(.6) scaleY(1.25) rotate3d(1, 1, 1, 6deg);
+  filter: contrast(0.5);
+  margin-top: 22%;
 }
 
 @media (max-width: 991px) {
@@ -802,6 +807,9 @@ TRY IT ... with or without CENTER CENTER
 @media (max-width: 765px) {
   .welcome-area {
     margin-bottom: 100px;
+  }
+  .welcome-area .welcome_img {
+    display: none !important;
   }
   .welcome-area .header-text {
     top: 55% !important;
