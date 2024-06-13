@@ -744,6 +744,7 @@ TRY IT ... with or without CENTER CENTER
 
 .welcome-area .header-text .left-text {
   align-self: center;
+  margin-top: 10%;
 }
 
 .welcome-area .header-text h1 {
