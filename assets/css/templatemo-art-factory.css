@@ -867,16 +867,16 @@ about
   margin-bottom: 40px;
 }
 
-#about2 {
+#adventage {
   padding: 120px 0px;
 }
 
-#about2 .right-image {
+#adventage .right-image {
   align-self: center;
 }
 
 #about h5,
-#about2 h5 {
+#adventage h5 {
   font-size: 26px;
   font-weight: 700;
   color: #1e1e1e;
@@ -886,23 +886,23 @@ about
 }
 
 #about p,
-#about2 p {
+#adventage p {
   margin-bottom: 30px;
   font-size: 16px;
   line-height: 30px;
   letter-spacing: 0.5px;
 }
 
-#about2 ul li img {
+#adventage ul li img {
   display: inline;
-  float: left;
 }
 
-#about2 ul li .text {
-  margin-left: 80px;
+#adventage ul li .text {
+  margin-left: 30px;
+  display: inline-block;
 }
 
-#about2 ul li .text h6 {
+#adventage ul li .text h6 {
   padding-top: 12px;
   font-size: 21px;
   font-weight: 500;
